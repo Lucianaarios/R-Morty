@@ -1,0 +1,183 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #7b4cdaaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+
+
+.card {
+  background-color:rgba(248, 227, 91, 0.5);
+  border: 3px solid #f9f91e;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  
+}
+
+.card img {
+  max-width: 100%;
+}
+
+.favorite-button {
+  background-color:#605f59;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.remove-button {
+  background-color: #605f59;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: rgb(91, 237, 147);
+  margin-left: 10px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 14px;
+  color: #777;
+}
+
+.link {
+  text-decoration: none;
+  color: #333;
+}
+
+ 
+.read-the-docs {
+  color: #2dc646;
+}
+
+
+
+.detail-container {
+  background-color: rgba(248, 227, 91, 0.5);
+  border: 3px solid #f9f91e;
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+.form-container {
+  background-color:rgba(248, 227, 91, 0.5);
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 20px;
+  width: 200px;
+  margin: 20px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #eee606;
+  border-radius: 5px;
+}
+
+p {
+  color: red;
+  margin: 10px 0;
+}
+
+button {
+  background-color: #090909;
+  color: #383333;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f9f904;
+  transform: scale(1.1)
+}
+
+
+
+.nav {
+  
+ 
+  display: grid;
+    
+   
+  grid-template-columns: 1fr auto; /* Dos columnas: una se expandirá y la otra será del tamaño del contenido */
+    align-items: center; /* Centrar verticalmente los elementos en la línea de la cuadrícula */
+    gap: 20px; /* Espacio entre los elementos */
+  }
+  
+  .left-buttons {
+    display: flex;
+    gap: 10px; /* Espacio entre los botones */
+  }
+  
+  .right-search {
+    margin-left: auto; /* Empujar la barra de búsqueda hacia la derecha */
+  }
